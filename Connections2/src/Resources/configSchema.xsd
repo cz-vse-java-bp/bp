@@ -1,0 +1,126 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="serverConfiguration" type="confType" />
+
+    <xs:complexType name="confType">
+        <xs:sequence>
+            <xs:element name="metaInfo" type="metaType" />
+            <xs:element name="router" type="routerType" />
+            <xs:element name="service" type="serviceType" maxOccurs="unbounded" />
+            <xs:element name="certs" type="certsType" />
+            <xs:element name="DBConns" type="dbConnsType" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="metaType">
+        <xs:sequence>
+            <xs:element name="createdBy" type="xs:string" />
+            <xs:element name="date" type="xs:date" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="routerType">
+        <xs:choice>
+            <xs:element name="routerConfig" type="routerConfig" />
+            <xs:element name="connTo" type="connToType" />
+        </xs:choice>
+    </xs:complexType>
+
+
+    <xs:complexType name="routerConfig">
+        <xs:sequence>
+            <xs:element name="clientsPort" type="portType" />
+            <xs:element name="servicePort" type="portType" />
+            <xs:element name="policy" type="policyType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="connToType">
+        <xs:sequence>
+            <xs:element name="ip" type="ipType" />
+            <xs:element name="port" type="portType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="serviceType">
+        <xs:sequence>
+            <xs:element name="serviceName" type="serviceNameType" />
+            <xs:element name="clientsPort" type="portType" />
+            <xs:element name="policy" type="policyType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="certsType">
+        <xs:sequence>
+            <xs:element name="keyStore" type="xs:string" />
+            <xs:element name="keyStorePass" type="xs:string" />
+            <xs:element name="trustStore" type="xs:string" minOccurs="0"/>
+            <xs:element name="trustStorePass" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="policyType">
+        <xs:sequence>
+            <xs:element name="maxClients" type="maxConns" />
+            <xs:element name="maxServices" type="maxConns" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="maxConns">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="portType">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="65535" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ipType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(((1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5]))|(localhost)" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="serviceNameType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="EMPLOYEE_MANAGEMENT" />
+            <xs:enumeration value="TEXT_PRINTER" />
+            <xs:enumeration value="STORAGE_MANAGEMENT" />
+            <xs:enumeration value="TASK_SERVICE" />
+            <xs:enumeration value="ORDER_MANAGEMENT" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="dbConnsType">
+        <xs:sequence>
+            <xs:element name="access" type="accessType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="accessType">
+        <xs:sequence>
+            <xs:element name="use" type="dbUseType" />
+            <xs:element name="url" type="xs:string" />
+            <xs:element name="user" type="xs:string" />
+            <xs:element name="password" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="dbUseType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="USER_AUTHENTICATION" />
+            <xs:enumeration value="FINGERPRINT_AUTHENTICATION" />
+            <xs:enumeration value="EMPLOYEE_MANAGEMENT" />
+            <xs:enumeration value="STORAGE_MANAGEMENT" />
+            <xs:enumeration value="TASK_MANAGEMENT" />
+            <xs:enumeration value="ORDERS_MANAGEMENT" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa3341c2-4f7f-4d2a-9da1-2690356dac01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="DsmViewSettings">
+    <option name="flattenPackages" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Connections2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="826">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="384" column="45" selection-start-line="384" selection-start-column="45" selection-end-line="384" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="436" column="21" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="177" column="52" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderContainerMessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderContainerMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="97" column="73" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>task:</find>
+      <find>task to solve</find>
+      <find>addMessa</find>
+      <find>EUserR</find>
+      <find>getAll</find>
+      <find>Sending 24 tasks to do</find>
+      <find>tasks to do</find>
+      <find>UserTask</find>
+      <find>search</find>
+      <find>DatabaseC</find>
+      <find>serviceRe</find>
+      <find>noti</find>
+      <find>notify</find>
+      <find>notifyOb</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;. NOT IMPLEMENTED YET</find>
+      <find>routerConn</find>
+      <find>start</find>
+      <find>close</find>
+      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;. NOT IMPLEMENTED YET</find>
+      <find>addTa</find>
+      <find>addTask</find>
+      <find>add</find>
+      <find>addTas</find>
+      <find>Added task! is it contained:</find>
+      <find>send</find>
+      <find>send(</find>
+      <find>Adding task in AllTasksContainer</find>
+      <find>Thread.sle</find>
+      <find>Thread</find>
+      <find>run(</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SSLServerConfigManager</replace>
+      <replace>copy()</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\utils</dir>
+      <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\connections\clientSide</dir>
+      <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\authentication</dir>
+      <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\handlers</dir>
+      <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AddTaskMessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TaskStateChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceClientsManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/database/DatabaseConnectionContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/EServiceType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/database/EDBUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Router.java" />
+        <option value="$PROJECT_DIR$/src/Resources/configSchema.xsd" />
+        <option value="$PROJECT_DIR$/src/Resources/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AuthMeMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/FingerPrint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/userTaskAssignment/IAssignScenario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/userTaskAssignment/RandomAssign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/userTaskAssignment/TaskSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/userTaskAssignment/TaskSolverContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/TestProjectAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/assembly.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java" />
+        <option value="$PROJECT_DIR$/assembly.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ClearYourTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ClearYourTasksHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="connections2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="421" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="clientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="clientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="serverSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="persistance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="persistance" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="persistance" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="userTaskAssignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowThumbnails.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15265082" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cz.vse.java.utils.persistance.service" />
+      <recent name="cz.vse.java.utils.persistance.entities.orders" />
+      <recent name="cz.vse.java.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cz.vse.java.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\Resources" />
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\Resources" />
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cz.vse.java.utils.database" />
+      <recent name="cz.vse.java.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\lib" />
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\Resources\stores" />
+      <recent name="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\utils\persistance" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.vse.java.App" />
+      <module name="Connections2" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\Resources\config.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.vse.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.vse.java.services.clientSide.Client" />
+      <module name="Connections2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.vse.java.services.clientSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.vse.java.services.serverSide.Server" />
+      <module name="Connections2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.vse.java.services.serverSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.vse.java.services.serverSide.TaskManagement" />
+      <module name="Connections2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.vse.java.services.serverSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FingerPrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Connections2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.vse.java.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.vse.java.utils" />
+      <option name="MAIN_CLASS_NAME" value="cz.vse.java.utils.FingerPrintTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.TaskManagement" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.FingerPrintTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.TaskManagement" />
+        <item itemvalue="JUnit.FingerPrintTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa3341c2-4f7f-4d2a-9da1-2690356dac01" name="Default Changelist" comment="" />
+      <created>1585858466258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585858466258</updated>
+      <workItem from="1585858468830" duration="106787000" />
+      <workItem from="1586248032660" duration="5751000" />
+      <workItem from="1586284876506" duration="3269000" />
+      <workItem from="1586353353011" duration="17691000" />
+      <workItem from="1586448809822" duration="145559000" />
+      <workItem from="1587028940116" duration="84530000" />
+      <workItem from="1587653295254" duration="43535000" />
+      <workItem from="1588187058617" duration="70000" />
+      <workItem from="1588187175107" duration="48161000" />
+    </task>
+    <task id="LOCAL-00001" summary="mid-save">
+      <created>1587758449339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587758449339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mid-save2">
+      <created>1587761186341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587761186341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reseting tasks">
+      <created>1587814230146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587814230146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="reseting tasks - done">
+      <created>1587818504528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587818504528</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updating tasks">
+      <created>1587851056980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587851056980</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updating tasks">
+      <created>1587851305887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587851305887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updating tasks">
+      <created>1588070690375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588070690375</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Configuration done">
+      <created>1588150388533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588150388533</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Doplnovani JavaDoc">
+      <created>1588154994159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588154994159</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Doplnovani JavaDoc">
+      <created>1588242623838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588242623838</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Uprava TaskManagementu">
+      <created>1588260759920</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588260759920</updated>
+    </task>
+    <task id="LOCAL-00012" summary="RefuseTask added">
+      <created>1588282123190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588282123190</updated>
+    </task>
+    <task id="LOCAL-00013" summary="RefuseTask added">
+      <created>1588283185696</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588283185696</updated>
+    </task>
+    <task id="LOCAL-00014" summary="RefuseTask added">
+      <created>1588290209828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588290209828</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Removing PreOrderItem">
+      <created>1588705214661</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588705214661</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FingerPrintTest - 2020.04.13 at 11h 43m 18s.xml">
+      <configuration name="FingerPrintTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2020.04.16 at 12h 11m 17s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 06m 42s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 07m 24s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 07m 56s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 08m 34s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 10m 06s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 11m 05s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductServiceTest - 2020.04.18 at 11h 11m 40s.xml">
+      <configuration name="ProductServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FingerPrintTest - 2020.04.25 at 13h 38m 33s.xml">
+      <configuration name="FingerPrintTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="455353000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.501355" side_tool="true" weight="0.28178138" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.22067039" visible="true" weight="0.27206478" />
+      <window_info id="Structure" order="6" sideWeight="0.7793296" side_tool="true" weight="0.26234818" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Statistic" order="3" weight="0.35523978" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32149202" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38721138" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.36412078" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3285968" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" x="93" y="93" width="1095" height="495" id="DSM" order="9" type="FLOATING" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="mid-save" />
+    <MESSAGE value="mid-save2" />
+    <MESSAGE value="reseting tasks" />
+    <MESSAGE value="reseting tasks - done" />
+    <MESSAGE value="updating tasks" />
+    <MESSAGE value="Configuration done" />
+    <MESSAGE value="Doplnovani JavaDoc" />
+    <MESSAGE value="Uprava TaskManagementu" />
+    <MESSAGE value="RefuseTask added" />
+    <MESSAGE value="Removing PreOrderItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing PreOrderItem" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/FingerPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="127" column="5" lean-forward="true" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/IAssignScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/utils/TestProjectAnalyzer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="205" column="44" selection-start-line="205" selection-start-column="44" selection-end-line="205" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/configSchema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="61" selection-start-line="61" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EProductStamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ClearYourTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ClearYourTasksHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="74" column="16" lean-forward="true" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ListeningForTasksContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="85" column="58" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ListeningForTasksContainerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="307" column="90" selection-start-line="307" selection-start-column="90" selection-end-line="307" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="282" column="17" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2104">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddTaskMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="187" column="16" lean-forward="true" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TaskStateChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="120" column="87" lean-forward="true" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddPreOrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="97" column="73" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderContainerMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderContainerMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="177" column="52" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="384" column="45" selection-start-line="384" selection-start-column="45" selection-end-line="384" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="436" column="21" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
