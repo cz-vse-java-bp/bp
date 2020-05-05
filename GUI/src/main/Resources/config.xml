@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mstns:serverConfiguration xmlns:mstns="https://example.com/xsd.xsd">
+    <metaInfo>
+        <createdBy>User</createdBy>
+        <date>2020-03-09</date>
+    </metaInfo>
+    <router>
+        <ip>localhost</ip>
+        <port>1111</port>
+        <connType>ssl</connType>
+    </router>
+    <service>
+        <serviceName>Router</serviceName>
+        <port>1111</port>
+        <policies>
+            <connection>
+                <type>ssl</type>
+                <maxNum>10</maxNum>
+                <allow>
+                    <ip>all</ip>
+                    <mac>all</mac>
+                </allow>
+            </connection>
+        </policies>
+    </service>
+    <service>
+        <serviceName>FileSaver</serviceName>
+        <port>999</port>
+        <policies>
+            <connection>
+                <type>basic</type>
+                <maxNum>10</maxNum>
+                <allow>
+                    <ip>123.123.123.123</ip>
+                    <mac>AB:CD:EF:12:34:56</mac>
+                </allow>
+            </connection>
+        </policies>
+    </service>
+
+</mstns:serverConfiguration>

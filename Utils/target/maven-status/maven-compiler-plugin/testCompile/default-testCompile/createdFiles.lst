@@ -1,0 +1,10 @@
+cz\vse\java\utils\lists\stringLists\StringBlackListTest.class
+cz\vse\java\utils\random\RandomNumberGeneratorTest.class
+cz\vse\java\AppTest.class
+cz\vse\java\utils\EmailAddressTest.class
+cz\vse\java\hashing\HasherTest.class
+cz\vse\java\utils\emailServices\EmailAddressTest.class
+cz\vse\java\utils\password\RegexBasedStringGeneratorTest.class
+cz\vse\java\utils\random\RandomEmailAddressGeneratorTest.class
+cz\vse\java\utils\random\RandomStringGeneratorTest.class
+cz\vse\java\utils\lists\stringLists\StringWhiteListTest.class

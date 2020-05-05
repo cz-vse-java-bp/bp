@@ -1,0 +1,119 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="configuration" type="configurationType" />
+
+<xs:complexType name="configurationType">
+	<xs:sequence>
+		<xs:element name="meta" type="metaType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="routerServer" type="routerServerType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="services" type="servicesType" minOccurs="1" maxOccurs="1" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="metaType">
+	<xs:sequence>
+		<xs:element name="dateOfCreation" type="xs:date" />
+		<xs:element name="createdBy" type="xs:string" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="routerServerType">
+	<xs:sequence>
+		<xs:element name="ip" minOccurs="1" maxOccurs="1" >
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="((1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="port" minOccurs="1" maxOccurs="1" >
+			<xs:simpleType>
+				<xs:restriction base="xs:integer">
+					<xs:minExclusive value="1000" />
+					<xs:maxExclusive value="65535" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="typeOfSocket" type="typeOfSocketType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="authMethods" type="authMethodsType" minOccurs="1" maxOccurs="1" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="servicesType">
+	<xs:sequence>
+		<xs:element name="service" type="serviceType" minOccurs="0" maxOccurs="unbounded" />
+	</xs:sequence>
+</xs:complexType>
+
+
+<xs:complexType name="serviceType">	
+	<xs:sequence>
+		<xs:element name="typeOfService" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="ip" minOccurs="1" maxOccurs="1">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="((1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="port" minOccurs="1" maxOccurs="1">
+			<xs:simpleType>
+				<xs:restriction base="xs:integer">
+					<xs:minExclusive value="1000" />
+					<xs:maxExclusive value="65535" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
+		<xs:element name="typeOfSocket" type="typeOfSocketType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="authMethods" type="authMethodsType" minOccurs="1" maxOccurs="1" />
+		<xs:element name="accessRules" type="accessRulesType" minOccurs="1" maxOccurs="1"/>
+	</xs:sequence>
+</xs:complexType>
+
+
+<xs:complexType name="accessRulesType">
+	<xs:sequence>
+		<xs:element name="accessRule" minOccurs="0" maxOccurs="unbounded" >
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="sourceIP" minOccurs="1" maxOccurs="unbounded">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:pattern value="((1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])" />
+								<xs:pattern value="all" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="mac" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+					<xs:element name="userName" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+				</xs:sequence>
+				<xs:attribute name="listMethod" type="listMethodType" />
+			</xs:complexType>
+		</xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+
+<xs:simpleType name="listMethodType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="blacklist" />
+		<xs:enumeration value="whitelist" />
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="typeOfSocketType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="basic" />
+		<xs:enumeration value="ssl" />
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="authMethodsType">
+	<xs:sequence>
+		<xs:element name="authMethod" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+</xs:schema>
+
