@@ -14,6 +14,8 @@ import java.util.logging.Logger;
  * <p>The class of {@code ServiceRouterManagement} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>These instances are responsible for managing connection with router
+ * from service.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů

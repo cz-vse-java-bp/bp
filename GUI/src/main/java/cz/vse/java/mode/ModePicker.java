@@ -174,7 +174,7 @@ public class ModePicker implements Initializable, IObserver {
                                             Parent parent = loader.load();
                                             stage.setScene(new Scene(parent));
                                             stage.setResizable(false);
-                                            stage.setTitle("Title");
+                                            stage.setTitle("Zákazník");
 
                                             PREVIOUS_STAGE.close();
 
@@ -216,6 +216,34 @@ public class ModePicker implements Initializable, IObserver {
 
                                 break;
                             }
+
+                            case "Supervisor": {
+
+                                Platform.runLater(new Runnable() {
+                                    @Override
+                                    public void run() {
+
+                                        try {
+
+                                            FXMLLoader loader = new FXMLLoader(getClass().getResource("/admin2.fxml"));
+                                            Parent parent = loader.load();
+                                            stage.setScene(new Scene(parent));
+                                            stage.setResizable(false);
+                                            stage.setTitle("Administrativa");
+
+                                            PREVIOUS_STAGE.close();
+
+                                            stage.show();
+
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
+                                });
+
+                                break;
+                            }
+
 
                             case "SKLADNIK": {
 

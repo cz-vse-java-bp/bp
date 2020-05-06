@@ -9,6 +9,9 @@ import java.util.List;
  * <p>The interface of ISearchingEngine is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>Defines basic tool for filtering {@link Product}s
+ * by it's attributes.</p>
+ *
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

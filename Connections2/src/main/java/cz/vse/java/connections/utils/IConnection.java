@@ -11,6 +11,8 @@ import cz.vse.java.util.Token;
  * <p>The interface of IConnection is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>The most general connection type represented by this interface with
+ * the most general methods defined in it.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

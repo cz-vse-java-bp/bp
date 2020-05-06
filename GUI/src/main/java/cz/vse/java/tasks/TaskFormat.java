@@ -201,28 +201,4 @@ public class TaskFormat {
         this.taskNote = taskNote;
     }
 
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of TaskFormat.
-     *
-     */
-  /*  public static void main(String[] args){
-        
-        System.err.println(">>> QuickTest: TaskFormat class");
-        System.err.println(">>> Creating TaskFormat instance...");
-        TaskFormat instance = new TaskFormat();
-        
-        System.out.println(instance.toString());
-        
-        
-        //code
-        
-        
-        System.err.println(">>> Creation successfull...");
-    }
-    
-    */
 }

@@ -13,6 +13,7 @@ import java.util.logging.Logger;
  * <p>The class of {@code HandlerContainer} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>Used as a container of {@link AHandler} instances.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů

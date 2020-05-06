@@ -12,6 +12,8 @@ import java.util.logging.Logger;
  * <p>The class of {@code ClientRouterManagement} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>These instances are responsible for managing connection with router
+ * from client.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů

@@ -8,6 +8,8 @@ import cz.vse.java.messages.utils.IMessage;
  * <p>The interface of IHandler is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>Defines basic signatures of any {@link AHandler}
+ * extending instance.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

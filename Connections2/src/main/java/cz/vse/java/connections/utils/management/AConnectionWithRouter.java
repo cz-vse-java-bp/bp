@@ -11,6 +11,8 @@ import java.util.logging.Logger;
  * <p>The class of {@code AConnectionWithRouter} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>Abstract instances of this class are used for managing the connection
+ * with router.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů

@@ -43,6 +43,12 @@ import java.util.logging.Logger;
  * <p>The class has <b>Thread-safe</b> getInstance() creation
  * mechanism implemented to be sure there is only one instance.</p>
  *
+ * <p>This class is used for communicating with any other service, using
+ * a concept of {@link MessageTask} - delaying message sending to the
+ * moment of successful authentication message receiving.</p>
+ *
+ * <p>It also contains the only {@link PreOrder} it can contain.</p>
+ *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů
  * @version 05. 04. 2020

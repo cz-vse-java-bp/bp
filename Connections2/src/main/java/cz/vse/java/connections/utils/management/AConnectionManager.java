@@ -11,7 +11,6 @@ import java.util.logging.Logger;
  * <p>The class of {@code AConnectionManager} is used to abstractly define
  * the type of the instances.</p>
  *
- *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů
  * @version 04. 04. 2020

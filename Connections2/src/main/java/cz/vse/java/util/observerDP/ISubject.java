@@ -5,12 +5,14 @@ package cz.vse.java.util.observerDP;
  * <p>The interface of ISubject is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>This interface defines the <b>Subject</b> from <b>Observer</b>
+ * design pattern. This side of the relation has to be able to add {@link IObserver},
+ * to remove it and to notify all the observers.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů
  * @version 05. 04. 2020
  *
- * @see cz.vse.java.utils.observerDP
  */
 public interface ISubject {
 

@@ -30,6 +30,12 @@ import java.util.logging.*;
  * <p>The class of {@code C2RConnection} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>Child of {@link AConnectionWithRouter} abstract instance used for
+ * establishing communication with Router side connection
+ * ({@link cz.vse.java.connections.routerSide.R2CConnection} on the
+ * other side).</p>
+ *
+ * <p>It's implementing interfaces of {@link ISubject} and {@link ICSConnection}.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů

@@ -8,6 +8,9 @@ import cz.vse.java.util.Token;
  * <p>The interface of ICSConnection is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>Name of {@code ICSConnection} stands for <b>Interface of
+ * Client-Side connection</b> and defines, what these connections
+ * should do.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

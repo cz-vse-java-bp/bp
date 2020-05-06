@@ -13,6 +13,9 @@ import java.util.logging.Logger;
  * <p>The class of {@code ProductNameSearch} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>{@link ISearchingEngine} implementation providing instances are able
+ * to filter {@link Product}s by it's name.</p>
+ *
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů
@@ -92,8 +95,8 @@ public class ProductNameSearch implements ISearchingEngine {
 
             } else {
 
-                if(product.getProductName().contains(findingBy) ||
-                        findingBy.contains(product.getProductName())) {
+                if(product.getProductName().toLowerCase().contains(findingBy.toLowerCase()) ||
+                        findingBy.toLowerCase().contains(product.getProductName().toLowerCase())) {
 
                     products.add(product);
                 }

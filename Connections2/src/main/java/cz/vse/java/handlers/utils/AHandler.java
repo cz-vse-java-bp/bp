@@ -1,16 +1,13 @@
 package cz.vse.java.handlers.utils;
 
 
-import cz.vse.java.connections.utils.IConnection;
-import cz.vse.java.messages.utils.IMessage;
-
-import java.util.logging.Logger;
-
 
 /*********************************************************************
  * <p>The class of {@code AHandler} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>This abstract class contains a basic container only for easier
+ * implementation of it's descendants.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů
@@ -27,15 +24,6 @@ public abstract class AHandler implements IHandler {
 
     private HandlerContainer container;
 
-    /* *****************************************************************/
-    /* Static variables ************************************************/
-
-    /**
-     * <p>Private static instance of the {@link Logger}
-     * - the logger of the {@link AHandler class</p>
-     */
-    private static final Logger LOG =
-            Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
     /* *****************************************************************/
     /* Constructors ****************************************************/

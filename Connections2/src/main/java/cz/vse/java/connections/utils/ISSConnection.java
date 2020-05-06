@@ -7,6 +7,7 @@ import cz.vse.java.services.serverSide.EServiceType;
  * <p>The interface of ISSConnection is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>The name stands for <b>Interface of Server-Side Connection</b>.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

@@ -31,6 +31,7 @@ public class ProductsContainer {
     /** Actual {@link Product}s container */
     private final CopyOnWriteArrayList<Product> products;
 
+    /** {@link ISearchingEngine}s used for filtering {@link Product}s */
     private List<ISearchingEngine> searchingEngines;
 
     /* *****************************************************************/

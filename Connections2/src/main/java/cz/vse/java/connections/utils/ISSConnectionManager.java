@@ -9,6 +9,7 @@ import cz.vse.java.util.Token;
  * <p>The interface of ISSConnectionManager is used to contain all methods
  * of the type to be overriden (implemented).</p>
  *
+ * <p>Definition of any Server-Side Connection Manager.</p>
  *
  * Written for project "Connections2".
  * @author Vojtěch Pavlů

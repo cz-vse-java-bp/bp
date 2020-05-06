@@ -25,6 +25,8 @@ import java.util.logging.Logger;
  * <p>The class of {@code ServicesManagement} is used to abstractly define
  * the type of the instances.</p>
  *
+ * <p>This instance is used as a container of connections with services
+ * from router.</p>
  *
  * <i>Written for project "Connections2".</i>
  * @author Vojtěch Pavlů
