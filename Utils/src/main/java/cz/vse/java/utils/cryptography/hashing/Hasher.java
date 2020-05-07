@@ -642,23 +642,4 @@ public class Hasher {
     /* *******************************************************/
     /* Setters ***********************************************/
 
-
-    /* *******************************************************/
-    /* Main method *******************************************/
-
-
-
-
-    /**
-     * The main method of the class of Hasher.
-     *
-     */
-    public static void main(String[] args) throws NoSuchAlgorithmException {
-
-        Hasher h = new Hasher(5);
-
-        String[] hash1 = h.generateHashWithSaltAndPepper("password", 2);
-
-        System.out.println(h.checkHashWithSaltAndPepper("password", hash1[0], hash1[1], 2));
-    }
 }

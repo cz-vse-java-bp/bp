@@ -42,7 +42,7 @@ import java.util.logging.*;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public class C2RConnection extends AConnectionWithRouter implements ICSConnection, ISubject {
 

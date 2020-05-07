@@ -36,7 +36,7 @@ import java.util.logging.Logger;
  * @version 10. 04. 2020
  *
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  */
 public class TaskManagement extends AGeneralService implements IService, IObserver {
 
@@ -275,64 +275,4 @@ public class TaskManagement extends AGeneralService implements IService, IObserv
 
 
 
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of TaskManagement.
-     *
-     */
-    public static void main(String[] args) {
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.USER_AUTHENTICATION,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.FINGERPRINT_AUTHENTICATION,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.EMPLOYEE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.STORAGE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.TASK_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.ORDERS_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-
-        ClassLoader classLoader = TaskManagement.class.getClassLoader();
-        File keystore = new File(classLoader.getResource("stores/keyStore.jks").getFile());
-
-        ClassLoader classLoader2 = TaskManagement.class.getClassLoader();
-        File truststore = new File(classLoader2.getResource("stores/trustStore.jts").getFile());
-
-        TaskManagement instance = new TaskManagement(
-                "localhost",
-                888,
-                555,
-                50,
-                keystore.getAbsolutePath(), "changeit",
-                truststore.getAbsolutePath(), "changeit"
-        );
-
-        new Thread(instance).start();
-
-        instance.prepareThread();
-    }
 }

@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.services.references
+ * .vse.java.services.references
  */
 public class ServiceReferenceContainer {
 
@@ -122,11 +122,11 @@ public class ServiceReferenceContainer {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code used}
+     * Getter for {boolean} formed {@code used}
      * of the instance of {@link ServiceReferenceContainer}
      *
      * @return the value of {@code used}
-     * @see boolean
+     *
      * @see ServiceReferenceContainer
      */
     public boolean wasUsed() {
@@ -139,7 +139,7 @@ public class ServiceReferenceContainer {
      * of the instance of {@link ServiceReferenceContainer}
      *
      * @return the value of {@code readyToCreate}
-     * @see boolean
+     *
      * @see ServiceReferenceContainer
      */
     public boolean isReadyToCreate() {
@@ -148,11 +148,11 @@ public class ServiceReferenceContainer {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code wasOK}
+     * Getter for {boolean} formed {@code wasOK}
      * of the instance of {@link ServiceReferenceContainer}
      *
      * @return the value of {@code wasOK}
-     * @see boolean
+     *
      * @see ServiceReferenceContainer
      */
     public boolean isWasOK() {
@@ -200,7 +200,7 @@ public class ServiceReferenceContainer {
      *
      * @param wasOK given boolean value to
      *              be set to the variable
-     * @see boolean
+     *
      * @see ServiceReferenceContainer
      */
     public void setWasOK(boolean wasOK) {
@@ -215,7 +215,7 @@ public class ServiceReferenceContainer {
      *
      * @param used given boolean value to
      *             be set to the variable
-     * @see boolean
+     *
      * @see ServiceReferenceContainer
      */
     public void setUsed(boolean used) {

@@ -24,7 +24,6 @@ import java.util.logging.Logger;
  * @version 16. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities.orders
  */
 public class PreOrder implements Serializable {
 
@@ -190,11 +189,11 @@ public class PreOrder implements Serializable {
     }
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<PreOrderItem>} formed {@code preOrderItems}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code preOrderItems}
      * of the instance of {@link PreOrder}
      *
      * @return the value of {@code preOrderItems}
-     * @see CopyOnWriteArrayList<PreOrderItem>
+     * @see CopyOnWriteArrayList
      * @see PreOrder
      */
     public CopyOnWriteArrayList<PreOrderItem> getPreOrderItems() {

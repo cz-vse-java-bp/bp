@@ -19,8 +19,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 16. 04. 2020
  *
- *
- * @see cz.vse.java.utils.persistance.entities.tasks
  */
 public class RandomCheckSideTask implements ISideTaskAssigner {
 
@@ -76,8 +74,6 @@ public class RandomCheckSideTask implements ISideTaskAssigner {
     /**
      * <p>Assigns an side task to the main {@link Task} assignment flow,
      * next to the main task (as "prepare something").</p>
-     *
-     * <p></p>
      *
      * @param orderItem which the side task should be assigned to.
      *

@@ -197,7 +197,7 @@ public class Token implements Serializable {
 
 
     /**
-     * Getter for {@link int}-formed {@code length}
+     * Getter for {int}-formed {@code length}
      * of the instance of {@link Token}
      *
      * @return the length of {@code token} interpretation

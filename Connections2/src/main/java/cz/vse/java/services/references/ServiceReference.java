@@ -16,7 +16,7 @@ import java.io.Serializable;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.services.references
+ * .vse.java.services.references
  */
 public class ServiceReference implements Serializable {
 
@@ -97,11 +97,11 @@ public class ServiceReference implements Serializable {
     }
 
     /**
-     * Getter for {@link int} formed {@code port}
+     * Getter for {int} formed {@code port}
      * of the instance of {@link ServiceReference}
      *
      * @return the value of {@code port}
-     * @see int
+     *
      * @see ServiceReference
      */
     public int getPort() {
@@ -161,7 +161,7 @@ public class ServiceReference implements Serializable {
      *
      * @param port given $field.typeName value to
      *             be set to the variable
-     * @see int
+     *
      * @see ServiceReference
      */
     public void setPort(int port) {

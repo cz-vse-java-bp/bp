@@ -27,7 +27,7 @@ import java.util.logging.Logger;
  * @version 10. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class ListeningForTasksContainerHandler extends AHandler {
 

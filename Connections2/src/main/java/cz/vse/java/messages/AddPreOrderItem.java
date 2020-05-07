@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  * @version 16. 04. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public class AddPreOrderItem extends AMessage implements IDataContainer {
 

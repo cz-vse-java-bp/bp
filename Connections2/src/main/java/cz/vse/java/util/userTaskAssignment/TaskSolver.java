@@ -261,11 +261,11 @@ public class TaskSolver implements IObserver {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code listening}
+     * Getter for {boolean} formed {@code listening}
      * of the instance of {@link TaskSolver}
      *
      * @return the value of {@code listening}
-     * @see boolean
+     *
      * @see TaskSolver
      */
     public boolean isListening() {
@@ -282,7 +282,7 @@ public class TaskSolver implements IObserver {
      *
      * @param listening given $field.typeName value to
      *                  be set to the variable
-     * @see boolean
+     *
      * @see TaskSolver
      */
     public void setListening(boolean listening) {

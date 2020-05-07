@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class HandlerContainer {
 
@@ -94,11 +94,11 @@ public class HandlerContainer {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code handlers}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code handlers}
      * of the instance of {@link HandlerContainer}
      *
      * @return the value of {@code handlers}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see HandlerContainer
      */
     public CopyOnWriteArrayList<IHandler> getHandlers() {

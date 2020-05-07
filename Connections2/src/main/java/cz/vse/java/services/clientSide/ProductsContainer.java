@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  * @version 12. 04. 2020
  *
  *
- * @see cz.vse.java.services.clientSide
+ * .vse.java.services.clientSide
  */
 public class ProductsContainer {
 
@@ -180,11 +180,11 @@ public class ProductsContainer {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code products}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code products}
      * of the instance of {@link ProductsContainer}
      *
      * @return the value of {@code products}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see ProductsContainer
      */
     public CopyOnWriteArrayList<Product> getProducts() {

@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 28. 04. 2020
  *
  *
- * @see cz.vse.java.services.serverSide.config
+ * .vse.java.services.serverSide.config
  */
 public class ServiceConfiguration {
 
@@ -157,11 +157,11 @@ public class ServiceConfiguration {
     }
 
     /**
-     * Getter for {@link int} formed {@code port}
+     * Getter for {int} formed {@code port}
      * of the instance of {@link ServiceConfiguration}
      *
      * @return the value of {@code port}
-     * @see int
+     *
      * @see ServiceConfiguration
      */
     public int getPort() {
@@ -171,11 +171,11 @@ public class ServiceConfiguration {
 
 
     /**
-     * Getter for {@link int} formed {@code numOfClients}
+     * Getter for {int} formed {@code numOfClients}
      * of the instance of {@link ServiceConfiguration}
      *
      * @return the value of {@code numOfClients}
-     * @see int
+     *
      * @see ServiceConfiguration
      */
     public int getNumOfClients() {

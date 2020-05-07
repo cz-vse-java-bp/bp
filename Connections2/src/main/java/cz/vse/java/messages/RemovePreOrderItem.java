@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 05. 05. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public class RemovePreOrderItem extends AMessage implements IDataContainer {
 

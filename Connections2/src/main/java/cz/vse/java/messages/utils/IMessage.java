@@ -15,7 +15,7 @@ import java.io.Serializable;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public interface IMessage extends Serializable {
 

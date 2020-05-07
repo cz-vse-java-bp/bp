@@ -17,7 +17,6 @@ import java.util.logging.Logger;
  * @version 13. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities.tasks
  */
 public class TaskDescriptionGenerator {
 
@@ -38,11 +37,11 @@ public class TaskDescriptionGenerator {
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
     private static final String PROBLEM_PHRASE =
-            "V případě problémů či nesrovnalostí kontaktuj vedoucího směny.";
+            "V případě problémů nebo nesrovnalostí kontaktuj vedoucího směny.";
 
     private static final String PRODUCT_PREPARATION =
             "Připrav %d %s produktu '%s' ze skladového místa %s. "
-                    + PROBLEM_PHRASE;;
+                    + PROBLEM_PHRASE;
 
     private static final String CHECK_PRODUCTS =
             "Zkontroluj produkty '%s' ze skladového místa %s, že je jich %d. " +

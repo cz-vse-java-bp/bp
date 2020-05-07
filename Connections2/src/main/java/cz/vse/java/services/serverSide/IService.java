@@ -10,7 +10,7 @@ package cz.vse.java.services.serverSide;
  * @author Vojtěch Pavlů
  * @version 04. 04. 2020
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  */
 public interface IService {
 

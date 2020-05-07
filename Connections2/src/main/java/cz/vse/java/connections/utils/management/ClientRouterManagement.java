@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.management
+ * .vse.java.connections.utils.management
  */
 public class ClientRouterManagement extends AConnectionManager implements Runnable {
 

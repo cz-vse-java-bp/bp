@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  */
 public class Router extends AService {
 

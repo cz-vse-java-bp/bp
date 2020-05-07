@@ -23,7 +23,6 @@ import java.util.logging.Logger;
  * @version 07. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.service
  */
 public class UserService extends AEntityService implements IPersistor {
 
@@ -352,6 +351,8 @@ public class UserService extends AEntityService implements IPersistor {
      *
      * @return          User with the given name or null, when
      *                  no such user is in the DB.
+     *
+     * @throws SQLException When error with DB occurs
      */
     public IEntity findByUserName(String username) throws SQLException {
 

@@ -23,8 +23,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 12. 04. 2020
  *
- *
- * @see cz.vse.java.utils.persistance.entities.orders
  */
 public class OrdersContainer {
 
@@ -217,11 +215,11 @@ public class OrdersContainer {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code orders}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code orders}
      * of the instance of {@link OrdersContainer}
      *
      * @return the value of {@code orders}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see OrdersContainer
      * @see Order
      */

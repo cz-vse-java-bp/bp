@@ -14,7 +14,7 @@ package cz.vse.java.handlers.utils;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public abstract class AHandler implements IHandler {
 

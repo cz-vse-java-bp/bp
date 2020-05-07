@@ -31,7 +31,6 @@ import java.util.logging.Logger;
  * @version 11. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.service
  */
 public class OrderItemService extends AEntityService implements IPersistor {
 
@@ -68,7 +67,6 @@ public class OrderItemService extends AEntityService implements IPersistor {
      * otherwise the new creation is done.</p>
      *
      * @param entity to be persisted
-     * @return result of the creation
      * @throws SQLException when something goes wrong
      */
     @Override

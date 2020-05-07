@@ -18,7 +18,7 @@ import cz.vse.java.util.Token;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public interface IConnection extends Runnable {
 

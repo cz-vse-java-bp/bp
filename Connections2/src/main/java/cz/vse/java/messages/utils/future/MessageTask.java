@@ -30,7 +30,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.messages.utils
+ * .vse.java.messages.utils
  * @see IMessage
  * @see MessageTaskContainer
  */

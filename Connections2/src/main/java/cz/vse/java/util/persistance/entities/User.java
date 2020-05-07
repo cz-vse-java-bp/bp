@@ -20,7 +20,6 @@ import java.util.logging.Logger;
  * @version 07. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public class User implements IEntity {
 
@@ -212,11 +211,11 @@ public class User implements IEntity {
     }
 
     /**
-     * Getter for {@link List<ERole>} formed {@code roles}
+     * Getter for {@link List} formed {@code roles}
      * of the instance of {@link User}
      *
      * @return the value of {@code roles}
-     * @see List<ERole>
+     * @see List
      * @see User
      */
     public List<ERole> getRoles() {
@@ -332,7 +331,7 @@ public class User implements IEntity {
      *
      * @param roles given ERole value to
      *              be set to the variable
-     * @see List<ERole>
+     * @see List
      * @see User
      */
     public void setRoles(List<ERole> roles) {

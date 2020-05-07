@@ -9,8 +9,6 @@ package cz.vse.java.util.persistance.entities.tasks;
  * Written for project "Connections2".
  * @author Vojtěch Pavlů
  * @version 09. 04. 2020
- *
- * @see cz.vse.java.utils.persistance.entities
  */
 public enum ETaskState {
 

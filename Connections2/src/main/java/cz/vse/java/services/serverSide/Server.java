@@ -26,7 +26,7 @@ import java.util.logging.Logger;
  * @version 04. 04. 2020
  *
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  * @see <a href="https://en.wikipedia.org/wiki/Singleton_pattern">
  * Singleton at Wikipedia</a>
  */
@@ -200,11 +200,11 @@ public class Server implements Runnable, ISubject {
 
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>}-formed {@code services} of
+     * Getter for {@link CopyOnWriteArrayList}-formed {@code services} of
      * the instance of {@link Server} containing {@link AService} instances.
      *
      * @return the value of {@code services}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see Server
      */
     public CopyOnWriteArrayList<AService> getServices() {

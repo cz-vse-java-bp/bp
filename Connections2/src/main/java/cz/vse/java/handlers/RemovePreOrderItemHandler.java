@@ -29,7 +29,7 @@ import java.util.logging.Logger;
  * @version 05. 05. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class RemovePreOrderItemHandler extends AHandler {
 

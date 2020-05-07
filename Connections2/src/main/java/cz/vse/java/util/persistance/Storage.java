@@ -23,8 +23,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 09. 04. 2020
  *
- *
- * @see cz.vse.java.utils.persistance
  * @see <a href="https://en.wikipedia.org/wiki/Singleton_pattern">
  * Singleton at Wikipedia</a>
  */

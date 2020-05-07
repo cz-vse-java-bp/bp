@@ -13,7 +13,7 @@ package cz.vse.java.authentication;
  * @author Vojtěch Pavlů
  * @version 03. 04. 2020
  *
- * @see cz.vse.java.authentication
+ * .vse.java.authentication
  */
 public enum EAuthenticationScenarioType {
 

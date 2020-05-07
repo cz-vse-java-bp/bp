@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @version 12. 04. 2020
  *
  *
- * @see cz.vse.java.services.clientSide
+ * .vse.java.services.clientSide
  */
 public class ProductNameSearch implements ISearchingEngine {
 

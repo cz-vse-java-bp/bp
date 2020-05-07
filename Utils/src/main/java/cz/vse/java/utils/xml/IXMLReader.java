@@ -27,7 +27,7 @@ public interface IXMLReader {
      * <p>It reads all needed data and store
      * it in prepared fields (variables).</p>
      *
-     * @throws Exception
+     * @throws Exception when the documents were not found
      */
     void read() throws Exception;
 

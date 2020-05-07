@@ -54,7 +54,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  * @see <a href="https://en.wikipedia.org/wiki/Singleton_pattern">
  * Singleton at Wikipedia</a>
  */
@@ -669,6 +669,9 @@ public class Client extends AService implements Runnable, IObserver {
      *
      * @param pathToTrustStore given String value to
      *                         be set to the variable
+     *
+     * @param passwordToTrustStore password to trustStore
+     *
      * @see String
      * @see Client
      */
@@ -697,11 +700,11 @@ public class Client extends AService implements Runnable, IObserver {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code listeningToTasks}
+     * Getter for {boolean} formed {@code listeningToTasks}
      * of the instance of {@link Client}
      *
      * @return the value of {@code listeningToTasks}
-     * @see boolean
+     *
      * @see Client
      */
     public boolean isListeningToTasks() {
@@ -715,96 +718,11 @@ public class Client extends AService implements Runnable, IObserver {
      *
      * @param listeningToTasks given $field.typeName value to
      *                         be set to the variable
-     * @see boolean
+     *
      * @see Client
      */
     public void setListeningToTasks(boolean listeningToTasks) {
 
         this.listeningToTasks = listeningToTasks;
-    }
-
-    /* *******************************************************/
-    /* Main method *******************************************/
-
-    /**
-     * The main method of the class of Client.
-     *
-     */
-    public static void main(String[] args) throws InterruptedException {
-       
-        System.err.println(">>> QuickTest: Client class"); 
-        System.err.println(">>> Creating Client instance...");
-
-        ClassLoader classLoader = Client.class.getClassLoader();
-        File file = new File(classLoader.getResource("stores/trustStore.jts").getFile());
-
-
-        Client.setTrustStore(file.getAbsolutePath(), "changeit");
-
-        UserProperties.getInstance().setUserName("cimj00");
-        UserProperties.getInstance().setPassword("password");
-
-        Client instance = Client.getInstance();
-
-
-        instance.prepareConnections(
-                "192.168.1.105",
-                9889
-        );
-
-        instance.run();
-
-        Thread t = new Thread(new Runnable() {
-            @Override
-            public void run() {
-
-                while (true) {
-
-                    instance.messageTaskContainer.update();
-
-                    try {
-                        Thread.sleep(2000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        });
-
-        t.start();
-
-        //instance.addMessageTask(new MessageTask(new ServiceReferenceRequest(EServiceType.TEXT_PRINTER), EServiceType.ROUTER));
-        //instance.addMessageTask(new MessageTask(new ServiceReferenceRequest(EServiceType.STORAGE_MANAGEMENT), EServiceType.ROUTER));
-        //instance.addMessageTask(new MessageTask(new ProductByIDRequest(4L), EServiceType.STORAGE_MANAGEMENT, 30));
-        //instance.addMessageTask(new MessageTask(new ProductAllRequest(), EServiceType.STORAGE_MANAGEMENT, 25));
-        //instance.addMessageTask(new MessageTask(new ChangeProductQuantity(0, 4L), EServiceType.STORAGE_MANAGEMENT));
-        instance.addMessageTask(new MessageTask(new ServiceReferenceRequest(EServiceType.TASK_SERVICE), EServiceType.ROUTER));
-        //instance.addMessageTask(new MessageTask(new ListeningForTasksContainer(UserProperties.getInstance().getUserName(), true), EServiceType.TASK_SERVICE));
-        //instance.addMessageTask(new MessageTask(new ServiceReferenceRequest(EServiceType.ORDER_MANAGEMENT), EServiceType.ROUTER));
-
-        //instance.addMessageTask(new MessageTask(new UniqueOrderIdentRequest(), EServiceType.ORDER_MANAGEMENT, 120L));
-        //instance.addMessageTask(new MessageTask(new GiveMeRoles("jira00"), EServiceType.ROUTER));
-
-
-        //String ident = instance.getPreOrder().getIdentificator();
-
-        //Thread.sleep(2000);
-/*
-        instance.addMessageTask(new MessageTask(new GiveMeMyOrder(ident), EServiceType.ORDER_MANAGEMENT));
-
-        instance.addMessageTask(new MessageTask(new SetContactToOrderMessage("yourmama@email.com", ident), EServiceType.ORDER_MANAGEMENT));
-        instance.addMessageTask(new MessageTask(new SetNoteToOrderMessage("Note kemo", ident), EServiceType.ORDER_MANAGEMENT));
-*/
-
-        instance.addMessageTask(new MessageTask(new ListeningForTasksContainer(UserProperties.getInstance().getUserName(), true), EServiceType.TASK_SERVICE));
-
-        //Thread.sleep(6000);
-
-
-        //Task task = instance.getTasks().getTasks().get(0);
-
-
-        //instance.addMessageTask(new MessageTask(new TryToGenerateOrder(ident), EServiceType.ORDER_MANAGEMENT));
-
     }
 }

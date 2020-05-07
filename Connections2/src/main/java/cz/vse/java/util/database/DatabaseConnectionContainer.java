@@ -121,25 +121,4 @@ public class DatabaseConnectionContainer {
 
         singletonInstance = null;
     }
-
-    /* *******************************************************/
-    /* Main method *******************************************/
-
-    /**
-     * The main method of the class of DatabaseConnectionContainer.
-     *
-     */
-    public static void main(String[] args){
-       
-        System.err.println(">>> QuickTest: DatabaseConnectionContainer class");
-        System.err.println(">>> Creating DatabaseConnectionContainer instance...");
-
-        DatabaseConnectionContainer.getInstance().add(EDBUse.USER_AUTHENTICATION, new DBConnection(
-                "jdbc:h2:tcp://localhost/~/test", "sa", ""
-        ));
-        
-        //code
-        
-        System.err.println(">>> Creation successfull...");
-    }
 }

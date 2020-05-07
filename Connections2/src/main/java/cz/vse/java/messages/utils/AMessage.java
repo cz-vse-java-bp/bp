@@ -21,7 +21,7 @@ import cz.vse.java.util.Token;
  * @version 14. 03. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  * @see IMessage
  * @see FingerPrint
  * @see Token

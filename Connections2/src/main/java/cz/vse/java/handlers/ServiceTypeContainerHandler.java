@@ -28,7 +28,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class ServiceTypeContainerHandler extends AHandler {
 

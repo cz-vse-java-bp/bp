@@ -117,7 +117,7 @@ public class XMLEmailContainer implements IXMLReader, IXMLWriter {
      * <p>It reads all needed data and store
      * it in prepared fields (variables).</p>
      *
-     * @throws Exception
+     * @throws Exception  when the given documents were not found
      */
     @Override
     public void read() throws Exception {

@@ -30,7 +30,7 @@ import java.util.logging.Logger;
  * @version 09. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class ChangeProductQuantityHandler extends AHandler {
 

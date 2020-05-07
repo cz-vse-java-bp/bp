@@ -29,7 +29,6 @@ import java.util.logging.Logger;
  * @version 09. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.service
  */
 public class TaskService extends AEntityService implements IPersistor {
 
@@ -66,7 +65,6 @@ public class TaskService extends AEntityService implements IPersistor {
      * otherwise the new creation is done.</p>
      *
      * @param entity to be persisted
-     * @return result of the creation
      * @throws SQLException when something goes wrong
      */
     @Override
@@ -549,48 +547,5 @@ public class TaskService extends AEntityService implements IPersistor {
     /* *****************************************************************/
     /* Setters *********************************************************/
 
-
-
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of TaskManagement.
-     *
-     */
-    public static void main(String[] args) throws SQLException {
-        
-        System.err.println(">>> QuickTest: TaskManagement class");
-        System.err.println(">>> Creating TaskManagement instance...");
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.EMPLOYEE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.STORAGE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.TASK_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.ORDERS_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        TaskService instance = new TaskService();
-
-        System.out.println("tasks without users");
-        instance.getNullUser().forEach(n-> System.out.println(n.getId()));
-
-        System.err.println(">>> Creation successfull...");
-    }
-    
 
 }

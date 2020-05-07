@@ -15,7 +15,6 @@ import java.util.List;
  * @author Vojtěch Pavlů
  * @version 07. 04. 2020
  *
- * @see cz.vse.java.utils.persistance.service
  */
 public interface IPersistor {
 
@@ -53,6 +52,7 @@ public interface IPersistor {
      * given database.</p>
      *
      * @return  all entities from the database
+     *  @throws SQLException When error with DB occurs
      */
     List<IEntity> getAll() throws SQLException;
 
@@ -63,6 +63,7 @@ public interface IPersistor {
      * @param id    {@link Long} id the entity has.
      *
      * @return      {@link IEntity} with given ID.
+     *  @throws SQLException When error with DB occurs
      */
     IEntity get(Long id) throws SQLException;
 
@@ -71,6 +72,8 @@ public interface IPersistor {
      * <p>Updates the given {@link IEntity} in the database.</p>
      *
      * @param entity    entity to be updated in the database.
+     *
+     * @throws SQLException When error with DB occurs
      */
     void update(IEntity entity) throws SQLException;
 

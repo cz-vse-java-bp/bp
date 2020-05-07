@@ -44,7 +44,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public class S2RConnection extends AConnectionWithRouter implements ISSConnection, ISubject {
 
@@ -381,11 +381,11 @@ public class S2RConnection extends AConnectionWithRouter implements ISSConnectio
     }
 
     /**
-     * Getter for {@link boolean} formed {@code listening}
+     * Getter for {boolean} formed {@code listening}
      * of the instance of {@link S2RConnection}
      *
      * @return the value of {@code listening}
-     * @see boolean
+     *
      * @see S2RConnection
      */
     public boolean isListening() {
@@ -408,11 +408,11 @@ public class S2RConnection extends AConnectionWithRouter implements ISSConnectio
     }
 
     /**
-     * Getter for {@link int} formed {@code port}
+     * Getter for {int} formed {@code port}
      * of the instance of {@link S2RConnection}
      *
      * @return the value of {@code port}
-     * @see int
+     *
      * @see S2RConnection
      */
     public int getPort() {
@@ -491,7 +491,7 @@ public class S2RConnection extends AConnectionWithRouter implements ISSConnectio
      *
      * @param listening given $field.typeName value to
      *                  be set to the variable
-     * @see boolean
+     *
      * @see S2RConnection
      */
     public void setListening(boolean listening) {
@@ -505,7 +505,7 @@ public class S2RConnection extends AConnectionWithRouter implements ISSConnectio
      *
      * @param amIAuthenticated given $field.typeName value to
      *                         be set to the variable
-     * @see boolean
+     *
      * @see S2RConnection
      */
     public void setAmIAuthenticated(boolean amIAuthenticated) {
@@ -526,27 +526,5 @@ public class S2RConnection extends AConnectionWithRouter implements ISSConnectio
     public void setToken(Token token) {
 
         this.token = token;
-    }
-
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of S2RConnection.
-     *
-     */
-    public static void main(String[] args){
-
-        System.err.println(">>> QuickTest: S2RConnection class");
-        System.err.println(">>> Creating S2RConnection instance...");
-
-        //S2RConnection connection = new S2RConnection("localhost", 888, "C:\\Users\\user\\Desktop\\skola\\BP\\Projects\\Connections2\\src\\main\\Resources\\trustStore.jts", "changeit");
-
-        //new Thread(connection).start();
-        //code
-
-
-        System.err.println(">>> Creation successfull...");
     }
 }

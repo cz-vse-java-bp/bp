@@ -19,8 +19,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 09. 04. 2020
  *
- *
- * @see cz.vse.java.utils.persistance.entities
  */
 public class Task implements IEntity {
 

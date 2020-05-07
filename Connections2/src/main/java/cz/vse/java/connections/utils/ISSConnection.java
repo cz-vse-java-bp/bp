@@ -13,7 +13,7 @@ import cz.vse.java.services.serverSide.EServiceType;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public interface ISSConnection extends IConnection {
 

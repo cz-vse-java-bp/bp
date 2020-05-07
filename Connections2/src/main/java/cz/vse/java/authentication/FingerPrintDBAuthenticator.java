@@ -37,7 +37,7 @@ import java.util.logging.Logger;
  * @version 04. 04. 2020
  *
  *
- * @see cz.vse.java.authentication
+ * .vse.java.authentication
  * @see FingerPrint
  */
 public class FingerPrintDBAuthenticator extends AHandler implements IAuthenticationScenario {

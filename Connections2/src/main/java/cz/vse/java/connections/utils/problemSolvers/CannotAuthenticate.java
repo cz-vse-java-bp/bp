@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @version 04. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.problemSolvers
+ * .vse.java.connections.utils.problemSolvers
  */
 public class CannotAuthenticate extends AProblemSolver implements IProblemSolver {
 

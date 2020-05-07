@@ -19,7 +19,6 @@ import java.util.logging.Logger;
  * @version 16. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities.orders
  */
 public class PreOrderItem implements Serializable {
 
@@ -137,11 +136,11 @@ public class PreOrderItem implements Serializable {
     }
 
     /**
-     * Getter for {@link int} formed {@code quantity}
+     * Getter for {int} formed {@code quantity}
      * of the instance of {@link PreOrderItem}
      *
      * @return the value of {@code quantity}
-     * @see int
+     *
      * @see PreOrderItem
      */
     public int getQuantity() {
@@ -184,7 +183,7 @@ public class PreOrderItem implements Serializable {
      *
      * @param quantity given int value to
      *                 be set to the variable
-     * @see int
+     *
      * @see PreOrderItem
      */
     public void setQuantity(int quantity) {

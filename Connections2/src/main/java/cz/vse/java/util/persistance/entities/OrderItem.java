@@ -20,7 +20,6 @@ import java.util.logging.Logger;
  * @version 11. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public class OrderItem implements IEntity {
 
@@ -196,11 +195,11 @@ public class OrderItem implements IEntity {
     }
 
     /**
-     * Getter for {@link List<>} formed {@code tasks}
+     * Getter for {@link List} formed {@code tasks}
      * of the instance of {@link OrderItem}
      *
      * @return the value of {@code tasks}
-     * @see List<>
+     * @see List
      * @see OrderItem
      */
     public List<Task> getTasks() {
@@ -272,7 +271,7 @@ public class OrderItem implements IEntity {
      *
      * @param tasks given tasks values to
      *              be set to the variable
-     * @see List<>
+     * @see List
      * @see OrderItem
      */
     public void setTasks(List<Task> tasks) {

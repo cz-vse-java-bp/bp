@@ -16,7 +16,6 @@ import cz.vse.java.util.persistance.entities.tasks.Task;
  * @author Vojtěch Pavlů
  * @version 10. 04. 2020
  *
- * @see cz.vse.java.utils.userTaskAssignment
  * @see Task
  * @see TaskSolverContainer
  * @see TaskSolver

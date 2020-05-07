@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.services.references
+ * .vse.java.services.references
  */
 public class SRCContainer implements ISubject {
 

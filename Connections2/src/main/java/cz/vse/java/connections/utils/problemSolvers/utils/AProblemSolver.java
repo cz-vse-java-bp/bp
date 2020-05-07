@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.problemSolvers
+ * .vse.java.connections.utils.problemSolvers
  */
 public abstract class AProblemSolver implements IProblemSolver {
 

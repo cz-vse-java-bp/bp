@@ -23,7 +23,7 @@ import java.util.logging.Logger;
  * @version 06. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.problemSolvers.utils
+ * .vse.java.connections.utils.problemSolvers.utils
  */
 public class WrongServiceType extends AProblemSolver implements IProblemSolver {
 

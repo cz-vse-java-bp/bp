@@ -14,7 +14,6 @@ import java.sql.SQLException;
  * @author Vojtěch Pavlů
  * @version 16. 04. 2020
  *
- * @see cz.vse.java.utils.persistance.entities.tasks
  */
 public interface ISideTaskAssigner {
 
@@ -30,6 +29,8 @@ public interface ISideTaskAssigner {
      * @param orderItem     which the side task should be assigned to.
      *
      * @return {@link Task} to be processed.
+     *
+     * @throws SQLException when the error with DB occurs
      */
     Task assign(OrderItem orderItem) throws SQLException;
 

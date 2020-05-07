@@ -39,7 +39,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public class R2SConnection implements ISSConnection {
 
@@ -390,7 +390,7 @@ public class R2SConnection implements ISSConnection {
      *
      * @param authenticated given $field.typeName value to
      *                      be set to the variable
-     * @see boolean
+     *
      * @see R2SConnection
      */
     public void setAuthenticated(boolean authenticated) {

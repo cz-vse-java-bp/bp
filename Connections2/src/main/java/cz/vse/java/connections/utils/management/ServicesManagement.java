@@ -33,7 +33,7 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.connections.routerSide
+ * .vse.java.connections.routerSide
  */
 public class ServicesManagement extends AConnectionManager implements Runnable, ISSConnectionManager {
 
@@ -248,11 +248,11 @@ public class ServicesManagement extends AConnectionManager implements Runnable, 
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link int} formed {@code maxServices}
+     * Getter for {int} formed {@code maxServices}
      * of the instance of {@link ServicesManagement}
      *
      * @return the value of {@code maxServices}
-     * @see int
+     *
      * @see ServicesManagement
      */
     public int getMaxServices() {
@@ -277,11 +277,11 @@ public class ServicesManagement extends AConnectionManager implements Runnable, 
     }
 
     /**
-     * Getter for {@link int} formed {@code port}
+     * Getter for {int} formed {@code port}
      * of the instance of {@link ServicesManagement}
      *
      * @return the value of {@code port}
-     * @see int
+     *
      * @see ServicesManagement
      */
     public int getPort() {
@@ -303,11 +303,11 @@ public class ServicesManagement extends AConnectionManager implements Runnable, 
     }
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code services}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code services}
      * of the instance of {@link ServicesManagement}
      *
      * @return the value of {@code services}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see ServicesManagement
      */
     public CopyOnWriteArrayList<IConnection> getServices() {

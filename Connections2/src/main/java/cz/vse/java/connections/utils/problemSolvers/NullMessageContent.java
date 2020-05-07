@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  * @version 05. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.problemSolvers
+ * .vse.java.connections.utils.problemSolvers
  */
 public class NullMessageContent extends AProblemSolver {
 

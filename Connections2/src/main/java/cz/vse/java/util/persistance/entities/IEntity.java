@@ -12,7 +12,6 @@ import java.io.Serializable;
  * @author Vojtěch Pavlů
  * @version 07. 04. 2020
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public interface IEntity extends Serializable {
 

@@ -18,7 +18,6 @@ import java.util.logging.Logger;
  * @version 07. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public class Product implements IEntity {
 
@@ -222,11 +221,11 @@ public class Product implements IEntity {
     }
 
     /**
-     * Getter for {@link List<>} formed {@code stamps}
+     * Getter for {@link List} formed {@code stamps}
      * of the instance of {@link Product}
      *
      * @return the value of {@code stamps}
-     * @see List<>
+     * @see List
      * @see Product
      */
     public List<EProductStamp> getStamps() {
@@ -392,7 +391,7 @@ public class Product implements IEntity {
      *
      * @param stamps given EProductStamp value to
      *               be set to the variable
-     * @see List<>
+     * @see List
      * @see Product
      */
     public void setStamps(List<EProductStamp> stamps) {

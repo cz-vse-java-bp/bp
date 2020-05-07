@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.services
+ * .vse.java.services
  */
 public enum EServiceType implements Serializable {
 

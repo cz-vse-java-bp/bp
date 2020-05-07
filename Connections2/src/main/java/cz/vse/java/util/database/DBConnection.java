@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 24. 03. 2020
  *
  *
- * @see cz.vse.java.utils
+ * .vse.java.utils
  */
 public class DBConnection {
 
@@ -131,11 +131,11 @@ public class DBConnection {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code stable}
+     * Getter for {boolean} formed {@code stable}
      * of the instance of {@link DBConnection}
      *
      * @return the value of {@code stable}
-     * @see boolean
+     *
      * @see DBConnection
      */
     public boolean isStable() {
@@ -144,11 +144,11 @@ public class DBConnection {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code created}
+     * Getter for {boolean} formed {@code created}
      * of the instance of {@link DBConnection}
      *
      * @return the value of {@code created}
-     * @see boolean
+     *
      * @see DBConnection
      */
     public boolean isCreated() {

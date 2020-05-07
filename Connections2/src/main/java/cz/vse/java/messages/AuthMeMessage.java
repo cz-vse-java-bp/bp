@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public class AuthMeMessage extends AMessage {
 

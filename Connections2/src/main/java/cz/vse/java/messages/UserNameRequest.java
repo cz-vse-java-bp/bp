@@ -16,7 +16,7 @@ import cz.vse.java.util.Token;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public class UserNameRequest extends AMessage implements IRequest {
 

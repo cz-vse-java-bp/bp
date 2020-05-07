@@ -28,7 +28,6 @@ import java.util.logging.Logger;
  * @version 11. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.service
  */
 public class OrderService extends AEntityService implements IPersistor {
 
@@ -349,40 +348,5 @@ public class OrderService extends AEntityService implements IPersistor {
     /* Setters *********************************************************/
 
 
-
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of OrderService.
-     *
-     */
-    public static void main(String[] args) throws SQLException {
-        
-        System.err.println(">>> QuickTest: OrderService class");
-        System.err.println(">>> Creating OrderService instance...");
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.ORDERS_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.STORAGE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-
-        OrderService instance = new OrderService();
-
-        //code
-
-
-        OrderItem oi = (OrderItem) new OrderItemService().get(6397L);
-
-        System.err.println(">>> Creation successfull...");
-    }
-    
 
 }

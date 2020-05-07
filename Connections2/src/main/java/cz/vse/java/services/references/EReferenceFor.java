@@ -10,7 +10,7 @@ package cz.vse.java.services.references;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.services.references
+ * .vse.java.services.references
  */
 public enum EReferenceFor {
 

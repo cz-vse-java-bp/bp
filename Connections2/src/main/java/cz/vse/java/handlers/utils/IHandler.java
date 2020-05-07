@@ -15,7 +15,7 @@ import cz.vse.java.messages.utils.IMessage;
  * @author Vojtěch Pavlů
  * @version 02. 04. 2020
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public interface IHandler extends Cloneable {
 

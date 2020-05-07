@@ -10,7 +10,7 @@ package cz.vse.java.connections.utils.problemSolvers.utils;
  * @author Vojtěch Pavlů
  * @version 03. 04. 2020
  *
- * @see cz.vse.java.connections.utils.problemSolvers.utils
+ * .vse.java.connections.utils.problemSolvers.utils
  */
 public enum ESolveMethod {
 

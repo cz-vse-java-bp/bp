@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.messages
+ * .vse.java.messages
  */
 public class PasswordRequest extends AMessage implements IRequest {
 
@@ -82,11 +82,11 @@ public class PasswordRequest extends AMessage implements IRequest {
     }
 
     /**
-     * Getter for {@link int} formed {@code numOfHashes}
+     * Getter for {int} formed {@code numOfHashes}
      * of the instance of {@link PasswordRequest}
      *
      * @return the value of {@code numOfHashes}
-     * @see int
+     *
      * @see PasswordRequest
      */
     public int getNumOfHashes() {

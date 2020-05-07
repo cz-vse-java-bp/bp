@@ -44,7 +44,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.connections
+ * .vse.java.connections
  */
 public class S2CConnection implements ISSConnection, IProblemSolver, ISubject {
 
@@ -413,11 +413,11 @@ public class S2CConnection implements ISSConnection, IProblemSolver, ISubject {
     }
 
     /**
-     * Getter for {@link boolean} formed {@code running}
+     * Getter for {boolean} formed {@code running}
      * of the instance of {@link S2CConnection}
      *
      * @return the value of {@code running}
-     * @see boolean
+     *
      * @see S2CConnection
      */
     public boolean isRunning() {
@@ -464,11 +464,11 @@ public class S2CConnection implements ISSConnection, IProblemSolver, ISubject {
 
 
     /**
-     * Getter for {@link boolean} formed {@code authenticated}
+     * Getter for {boolean} formed {@code authenticated}
      * of the instance of {@link S2CConnection}
      *
      * @return the value of {@code authenticated}
-     * @see boolean
+     *
      * @see S2CConnection
      */
     public boolean isAuthenticated() {
@@ -498,7 +498,7 @@ public class S2CConnection implements ISSConnection, IProblemSolver, ISubject {
      *
      * @param authenticated given $field.typeName value to
      *                      be set to the variable
-     * @see boolean
+     *
      * @see S2CConnection
      */
     public void setAuthenticated(boolean authenticated) {

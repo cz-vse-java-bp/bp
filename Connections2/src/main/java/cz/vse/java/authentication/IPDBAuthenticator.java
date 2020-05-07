@@ -28,7 +28,7 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.authentication
+ * .vse.java.authentication
  */
 public class IPDBAuthenticator extends AHandler implements IAuthenticationScenario {
 

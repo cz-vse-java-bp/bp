@@ -2,10 +2,27 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'Connections2'" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3341c2-4f7f-4d2a-9da1-2690356dac01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/AuthenticationHandlerContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/AuthenticationHandlerContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/EAuthenticationScenarioType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/EAuthenticationScenarioType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/FingerPrintDBAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/FingerPrintDBAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/IAuthenticationScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/IAuthenticationScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/IPDBAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/IPDBAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/TokenContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/TokenContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/TokenValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/TokenValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/UserAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/authentication/UserAuthenticator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2RConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2RConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2CConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2CConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2RConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2RConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ICSConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ICSConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/IConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/IConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ISSConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ISSConnection.java" afterDir="false" />
@@ -18,14 +35,184 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceClientsManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceClientsManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceRouterManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceRouterManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServicesManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServicesManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotAcceptMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotAcceptMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotAuthenticate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotAuthenticate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotSendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/CannotSendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/ConnectionInterrupted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/ConnectionInterrupted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/NoDBRecordFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/NoDBRecordFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/NullMessageContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/NullMessageContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/ServiceReferenceNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/ServiceReferenceNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongFingerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongFingerPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongServiceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongServiceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/WrongUsername.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/AProblemSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/AProblemSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/ESolveMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/ESolveMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/IProblemSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/IProblemSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/ProblemSolverContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/problemSolvers/utils/ProblemSolverContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AddPreOrderItemHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AddPreOrderItemHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AddTaskMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AddTaskMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AskForTaskCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AskForTaskCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AuthResultContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AuthResultContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ChangeProductQuantityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ChangeProductQuantityHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ClearYourTasksHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ClearYourTasksHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ErrorMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ErrorMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/FingerPrintContainerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/FingerPrintContainerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyOrderHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyOrderHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeRolesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeRolesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ListeningForTasksContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ListeningForTasksContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/OrderContainerMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/OrderContainerMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/OrderTransformationResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/OrderTransformationResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PasswordRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PasswordRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderChangeResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderChangeResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderContainerMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderContainerMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductAllContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductAllContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductAllRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductAllRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductByIDContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductByIDContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductByIDRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ProductByIDRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/QuitMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/QuitMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RolesContainerMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RolesContainerMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceReferenceContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceReferenceContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceReferenceRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceReferenceRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceTypeContainerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceTypeContainerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceTypeRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ServiceTypeRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetContactToOrderMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetContactToOrderMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetNoteToOrderMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetNoteToOrderMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetSubmitterToOrderHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/SetSubmitterToOrderHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TextMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TextMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TokenRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TokenRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TryToGenerateOrderHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TryToGenerateOrderHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UniqueOrderIdentRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UniqueOrderIdentRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UsePreOrderIdentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UsePreOrderIdentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UseTokenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UseTokenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UserNameRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/UserNameRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/AHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/AHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/IHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/IHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddPreOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddPreOrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddTaskMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddTaskMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AskForTaskCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AskForTaskCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AuthMeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AuthMeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AuthenticationResultContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AuthenticationResultContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ChangeProductQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ChangeProductQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ClearYourTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ClearYourTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/FingerPrintContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/FingerPrintContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/FingerPrintContainerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/FingerPrintContainerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/IPAddressContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/IPAddressContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ListeningForTasksContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ListeningForTasksContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/OrderContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/OrderContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/OrderTransformationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/OrderTransformationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PasswordContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PasswordContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderChangeResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderChangeResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductAllContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductAllContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductAllRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductAllRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductByIDContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductByIDContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductByIDRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ProductByIDRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/QuitMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/QuitMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RolesContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RolesContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceReferenceContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceReferenceContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceReferenceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceReferenceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceTypeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceTypeContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceTypeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ServiceTypeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetContactToOrderMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetContactToOrderMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetNoteToOrderMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetNoteToOrderMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetSubmitterToOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/SetSubmitterToOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TaskStateChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TaskStateChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TextMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TextMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TokenContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TokenContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TokenRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TokenRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TryToGenerateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TryToGenerateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UniqueOrderIdentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UniqueOrderIdentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UsePreOrderIdent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UsePreOrderIdent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UseToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UseToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UserNameContainerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UserNameContainerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UserNameRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/UserNameRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/AMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/AMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/EErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/EErrorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/ICommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IDataContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IDataContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/IRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/future/MessageTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/future/MessageTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/future/MessageTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/future/MessageTaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/past/ReceivedMessageContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/utils/past/ReceivedMessageContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ISearchingEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ISearchingEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductNameSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductNameSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductsContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductsContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/EReferenceFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/EReferenceFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/SRCContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/SRCContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/ServiceReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/ServiceReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/ServiceReferenceContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/references/ServiceReferenceContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/AGeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/AGeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/AService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/AService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/EServiceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/EServiceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/EmployeeManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TextPrinterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServiceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/ConnectionAutoCloser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/ConnectionAutoCloser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/FingerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/FingerPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/SSLServerConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/SSLServerConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EDBUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EDBUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EmployeeDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EmployeeDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/IObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/ISubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/ISubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EProductStamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EProductStamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/IEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/IEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/OrdersContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/OrdersContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ETaskState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ETaskState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ISideTaskAssigner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ISideTaskAssigner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/RandomCheckSideTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/RandomCheckSideTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskDescriptionGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskDescriptionGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/AEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/AEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/IPersistor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/IPersistor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/UserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/UserProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/IAssignScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/IAssignScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +246,80 @@
     <favorites_list name="Connections2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="276" selection-start-line="276" selection-end-line="276" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/StorageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="223" column="53" selection-start-line="223" selection-start-column="53" selection-end-line="223" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="352" selection-start-line="352" selection-end-line="352" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/IPersistor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="305" column="27" selection-start-line="305" selection-start-column="27" selection-end-line="305" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,22 +334,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>task:</find>
-      <find>task to solve</find>
-      <find>addMessa</find>
-      <find>EUserR</find>
-      <find>getAll</find>
-      <find>Sending 24 tasks to do</find>
-      <find>tasks to do</find>
-      <find>UserTask</find>
-      <find>search</find>
-      <find>DatabaseC</find>
-      <find>serviceRe</find>
-      <find>noti</find>
-      <find>notify</find>
-      <find>notifyOb</find>
-      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;. NOT IMPLEMENTED YET</find>
-      <find>routerConn</find>
       <find>start</find>
       <find>close</find>
       <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;. NOT IMPLEMENTED YET</find>
@@ -104,10 +348,35 @@
       <find>Thread.sle</find>
       <find>Thread</find>
       <find>run(</find>
+      <find>@see CopyOnWriteArrayList&lt;&gt;</find>
+      <find>{@link CopyOnWriteArrayList&lt;&gt;}</find>
+      <find>* @see cz.vse.java([a-Z]||[.]){1,5} */</find>
+      <find>{@link List&lt;&gt;}</find>
+      <find>@see List&lt;&gt;</find>
+      <find>\@link CopyOnWriteArrayList\&lt;[a-zA-Z]{1,}\&gt;</find>
+      <find>\@link List\&lt;[a-zA-Z]{1,}\&gt;</find>
+      <find>\@see List\&lt;[a-zA-Z]{1,}\&gt;</find>
+      <find>\@see CopyOnWriteArrayList\&lt;[a-zA-Z]{1,}\&gt;</find>
+      <find>@link int</find>
+      <find>@link boolean</find>
+      <find>@see</find>
+      <find>@see int</find>
+      <find>@see boolean</find>
+      <find>@see String[]</find>
+      <find>\@see cz</find>
     </findStrings>
     <replaceStrings>
       <replace>SSLServerConfigManager</replace>
       <replace>copy()</replace>
+      <replace>{@link CopyOnWriteArrayList}</replace>
+      <replace>{@link List}</replace>
+      <replace>@link CopyOnWriteArrayList</replace>
+      <replace>@link List</replace>
+      <replace>@see List</replace>
+      <replace>@see CopyOnWriteArrayList</replace>
+      <replace>int</replace>
+      <replace>boolean</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\user\Desktop\skola\BP\Projects\Connections2\src\main\java\cz\vse\java\utils</dir>
@@ -123,43 +392,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/utils/TestProjectAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/config/ServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/assembly.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java" />
-        <option value="$PROJECT_DIR$/assembly.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/GiveMeMyTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ClearYourTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ClearYourTasksHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2RConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ICSConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/ISubject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/AConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/AConnectionWithRouter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ClientRouterManagement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ClientServiceManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/RouterClientsManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceClientsManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceRouterManagement.java" />
@@ -167,13 +399,50 @@
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/IConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ISSConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ISSConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/IHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ISearchingEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductNameSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/ProductsContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/AHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/IAssignScenario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/AEntityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/OrdersContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/ConnectionAutoCloser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EDBUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EmployeeDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/UserProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/IObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskDescriptionGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/IEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EProductStamp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/Storage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ETaskState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/ERole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/RandomCheckSideTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ISideTaskAssigner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2RConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TextPrinterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/IPersistor.java" />
       </list>
     </option>
   </component>
@@ -200,8 +469,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="421" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="420" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -214,6 +483,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,12 +666,15 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="userTaskAssignment" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Connections2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Connections2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,7 +694,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15265082" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -565,7 +839,8 @@
       <workItem from="1587028940116" duration="84530000" />
       <workItem from="1587653295254" duration="43535000" />
       <workItem from="1588187058617" duration="70000" />
-      <workItem from="1588187175107" duration="53915000" />
+      <workItem from="1588187175107" duration="55396000" />
+      <workItem from="1588806466590" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="mid-save">
       <created>1587758449339</created>
@@ -715,7 +990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="461107000" />
+    <option name="totallyTimeSpent" value="464875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,13 +1003,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.501355" side_tool="true" weight="0.28178138" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.22067039" visible="true" weight="0.27206478" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.22067039" visible="true" weight="0.2769231" />
       <window_info id="Structure" order="6" sideWeight="0.7793296" side_tool="true" weight="0.26234818" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -746,12 +1022,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.38721138" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.36412078" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.41563055" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.3285968" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3285968" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32955465" />
@@ -784,308 +1060,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Checking tasks" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RefuseTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/ListeningForTasksContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RefuseTaskHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="85" column="58" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/ListeningForTasksContainerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2CConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="307" column="90" selection-start-line="307" selection-start-column="90" selection-end-line="307" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2SConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="282" column="17" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2104">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddTaskMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/AllTasksContainerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolverContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="187" column="16" lean-forward="true" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/TaskStateChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/TaskStateChangeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="120" column="87" lean-forward="true" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AllTasksContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/GiveMeMyTasksHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/TaskSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/AddPreOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="97" column="73" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/RemovePreOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/PreOrderContainerMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/messages/PreOrderContainerMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/routerSide/R2SConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="177" column="52" selection-start-line="177" selection-start-column="52" selection-end-line="177" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/RemovePreOrderItemHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="384" column="45" selection-start-line="384" selection-start-column="45" selection-end-line="384" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="436" column="21" selection-start-line="436" selection-start-column="21" selection-end-line="436" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="185" column="82" selection-start-line="185" selection-start-column="82" selection-end-line="185" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/ICSConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/ISubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/clientSide/C2RConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/AConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/AConnectionWithRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ClientRouterManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ClientServiceManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/RouterClientsManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceClientsManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/utils/management/ServiceRouterManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1128,27 +1102,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/IHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1177,6 +1134,289 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/IAssignScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userTaskAssignment/RandomAssign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/AEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/OrdersContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/ConnectionAutoCloser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EDBUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/EmployeeDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/UserProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/observerDP/IObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/TaskDescriptionGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/IEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EProductStamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/EUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/PreOrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ETaskState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/userData/ERole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/handlers/utils/HandlerContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/clientSide/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11781">
+          <caret line="728" selection-start-line="728" selection-end-line="728" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/database/DatabaseConnectionContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="216" column="41" lean-forward="true" selection-start-line="216" selection-start-column="41" selection-end-line="216" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/RandomCheckSideTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/tasks/ISideTaskAssigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/connections/serviceSide/S2RConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="528" column="5" selection-start-line="528" selection-start-column="5" selection-end-line="528" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TextPrinterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/TaskManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/OrderManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="223" column="53" selection-start-line="223" selection-start-column="53" selection-end-line="223" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/service/IPersistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/services/serverSide/EmployeeManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1759">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/vse/java/util/persistance/entities/orders/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="305" column="27" selection-start-line="305" selection-start-column="27" selection-end-line="305" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -200,11 +200,11 @@ public class TaskSolverContainer {
 
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code container}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code container}
      * of the instance of {@link TaskSolverContainer}
      *
      * @return the value of {@code container}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see TaskSolverContainer
      */
     public CopyOnWriteArrayList<TaskSolver> getContainer() {

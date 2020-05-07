@@ -218,11 +218,11 @@ public class TaskContainer implements ISubject {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code tasks}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code tasks}
      * of the instance of {@link TaskContainer}
      *
      * @return the value of {@code tasks}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see TaskContainer
      */
     public CopyOnWriteArrayList<Task> getTasks() {

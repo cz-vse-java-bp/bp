@@ -36,7 +36,7 @@ import java.util.logging.Logger;
  * @version 07. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils.management
+ * .vse.java.connections.utils.management
  */
 public class ServiceClientsManagement extends AConnectionManager implements Runnable, ISSConnectionManager, ISubject {
 
@@ -336,11 +336,11 @@ public class ServiceClientsManagement extends AConnectionManager implements Runn
     }
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code clients}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code clients}
      * of the instance of {@link ServiceClientsManagement}
      *
      * @return the value of {@code clients}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see ServiceClientsManagement
      */
     public CopyOnWriteArrayList<IConnection> getClients() {

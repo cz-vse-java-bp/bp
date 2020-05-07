@@ -26,8 +26,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 08. 04. 2020
  *
- *
- * @see cz.vse.java.utils.persistance.service
  */
 public class ProductService extends AEntityService implements IPersistor {
 

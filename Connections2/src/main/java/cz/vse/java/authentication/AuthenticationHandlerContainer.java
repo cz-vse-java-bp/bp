@@ -25,9 +25,9 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.authentication
+ * .vse.java.authentication
  * @see HandlerContainer
- * @see cz.vse.java.handlers.utils.AHandler
+ * .vse.java.handlers.utils.AHandler
  * @see IHandler
  * @see TokenValidator
  * @see FingerPrintDBAuthenticator

@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @version 11. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class AskForTaskCommandHandler extends AHandler {
 

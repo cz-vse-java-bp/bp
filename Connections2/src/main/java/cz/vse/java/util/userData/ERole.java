@@ -10,7 +10,6 @@ package cz.vse.java.util.userData;
  * @author Vojtěch Pavlů
  * @version 15. 04. 2020
  *
- * @see cz.vse.java.utils.userData
  */
 public enum ERole {
 

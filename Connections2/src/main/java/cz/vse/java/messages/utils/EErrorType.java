@@ -10,7 +10,7 @@ package cz.vse.java.messages.utils;
  * @author Vojtěch Pavlů
  * @version 03. 04. 2020
  *
- * @see cz.vse.java.messages.utils
+ * .vse.java.messages.utils
  */
 public enum EErrorType {
 

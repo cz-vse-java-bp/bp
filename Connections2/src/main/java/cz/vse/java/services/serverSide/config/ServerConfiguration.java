@@ -27,7 +27,7 @@ import java.util.logging.Logger;
  * @version 28. 04. 2020
  *
  *
- * @see cz.vse.java.services.serverSide.config
+ * .vse.java.services.serverSide.config
  */
 public class ServerConfiguration {
 
@@ -326,11 +326,11 @@ public class ServerConfiguration {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code services}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code services}
      * of the instance of {@link ServerConfiguration}
      *
      * @return the value of {@code services}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see ServerConfiguration
      */
     public CopyOnWriteArrayList<ServiceConfiguration> getServices() {
@@ -339,11 +339,11 @@ public class ServerConfiguration {
     }
 
     /**
-     * Getter for {@link int} formed {@code routerPort}
+     * Getter for {int} formed {@code routerPort}
      * of the instance of {@link ServerConfiguration}
      *
      * @return the value of {@code routerPort}
-     * @see int
+     *
      * @see ServerConfiguration
      */
     public int getRouterPort() {

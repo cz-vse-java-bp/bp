@@ -12,7 +12,7 @@ import cz.vse.java.connections.utils.IConnection;
  * @author Vojtěch Pavlů
  * @version 03. 04. 2020
  *
- * @see cz.vse.java.messages.utils
+ * .vse.java.messages.utils
  */
 public interface ICommand extends IMessage {
 

@@ -34,7 +34,7 @@ import java.util.logging.Logger;
  * @version 02. 04. 2020
  *
  *
- * @see cz.vse.java.connections.routerSide
+ * .vse.java.connections.routerSide
  */
 public class RouterClientsManagement extends AConnectionManager implements Runnable, ISSConnectionManager {
 

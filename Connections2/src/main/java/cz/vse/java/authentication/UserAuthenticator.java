@@ -39,7 +39,7 @@ import java.util.logging.Logger;
  * @version 03. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class UserAuthenticator extends AHandler implements IAuthenticationScenario {
 

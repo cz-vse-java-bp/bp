@@ -27,7 +27,7 @@ import java.util.logging.Logger;
  * @version 25. 04. 2020
  *
  *
- * @see cz.vse.java.handlers
+ * .vse.java.handlers
  */
 public class AddTaskMessageHandler extends AHandler {
 

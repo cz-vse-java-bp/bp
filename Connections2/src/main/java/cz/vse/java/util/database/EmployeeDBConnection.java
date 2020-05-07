@@ -13,8 +13,6 @@ import java.util.logging.Logger;
  * @author Vojtěch Pavlů
  * @version 03. 04. 2020
  *
- *
- * @see cz.vse.java.utils.database
  */
 public class EmployeeDBConnection extends DBConnection {
 

@@ -21,7 +21,6 @@ import java.util.logging.Logger;
  * @version 11. 04. 2020
  *
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public class Order implements IEntity {
 
@@ -224,11 +223,11 @@ public class Order implements IEntity {
     }
 
     /**
-     * Getter for {@link List<>} formed {@code orderItems}
+     * Getter for {@link List} formed {@code orderItems}
      * of the instance of {@link Order}
      *
      * @return the value of {@code orderItems}
-     * @see List<>
+     * @see List
      * @see Order
      */
     public List<OrderItem> getOrderItems() {
@@ -339,9 +338,9 @@ public class Order implements IEntity {
      * <p>Setter for the {@link List}-formed
      * {@code orderItems} variable.</p>
      *
-     * @param orderItems given OrderItem> value to
+     * @param orderItems given {@link OrderItem} value to
      *                   be set to the variable
-     * @see List<>
+     * @see List
      * @see Order
      */
     public void setOrderItems(List<OrderItem> orderItems) {

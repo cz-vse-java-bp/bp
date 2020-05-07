@@ -9,8 +9,6 @@ package cz.vse.java.util.database;
  * Written for project "Connections2".
  * @author Vojtěch Pavlů
  * @version 05. 04. 2020
- *
- * @see cz.vse.java.utils.database
  */
 public enum EDBUse {
 

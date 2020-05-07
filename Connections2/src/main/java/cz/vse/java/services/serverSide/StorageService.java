@@ -25,7 +25,7 @@ import java.util.logging.Logger;
  * @version 09. 04. 2020
  *
  *
- * @see cz.vse.java.services.serverSide
+ * .vse.java.services.serverSide
  */
 public class StorageService extends AGeneralService {
 
@@ -169,49 +169,5 @@ public class StorageService extends AGeneralService {
     /* *****************************************************************/
     /* Setters *********************************************************/
 
-
-
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of StorageService.
-     *
-     */
-    public static void main(String[] args){
-        
-        System.err.println(">>> QuickTest: StorageService class");
-        System.err.println(">>> Creating StorageService instance...");
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.STORAGE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-
-        ClassLoader classLoader = StorageService.class.getClassLoader();
-        File file = new File(classLoader.getResource("stores/keyStore.jks").getFile());
-
-        ClassLoader classLoader2 = StorageService.class.getClassLoader();
-        File file2 = new File(classLoader2.getResource("stores/trustStore.jts").getFile());
-
-
-        StorageService instance = new StorageService(
-                "localhost",
-                888,
-                1234,
-                50,
-                file2.getAbsolutePath(), "changeit",
-                file.getAbsolutePath(), "changeit"
-
-        );
-        
-        //code
-        
-        new Thread(instance).start();
-        System.err.println(">>> Creation successfull...");
-    }
-    
 
 }

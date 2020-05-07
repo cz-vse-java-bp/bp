@@ -10,7 +10,6 @@ package cz.vse.java.util.persistance.entities;
  * @author Vojtěch Pavlů
  * @version 07. 04. 2020
  *
- * @see cz.vse.java.utils.persistance.entities
  */
 public enum EProductStamp {
 

@@ -36,7 +36,7 @@ import java.util.logging.Logger;
  * @version 12. 04. 2020
  *
  *
- * @see cz.vse.java.services.serverSide
+ * .vse.java.services.serverSide
  */
 public class OrderManagement extends AGeneralService {
 
@@ -220,6 +220,8 @@ public class OrderManagement extends AGeneralService {
      * <p>Persists the given {@link Order} to DB.</p>
      *
      * @param order to be persisted
+     *
+     * @return result of persisting new {@link Order}
      */
     public boolean persistNewOrder(Order order) {
 
@@ -355,11 +357,11 @@ public class OrderManagement extends AGeneralService {
     /* Getters *********************************************************/
 
     /**
-     * Getter for {@link CopyOnWriteArrayList<>} formed {@code preOrders}
+     * Getter for {@link CopyOnWriteArrayList} formed {@code preOrders}
      * of the instance of {@link OrderManagement}
      *
      * @return the value of {@code preOrders}
-     * @see CopyOnWriteArrayList<>
+     * @see CopyOnWriteArrayList
      * @see OrderManagement
      */
     public CopyOnWriteArrayList<PreOrder> getPreOrders() {
@@ -403,71 +405,4 @@ public class OrderManagement extends AGeneralService {
     /* Setters *********************************************************/
 
 
-
-    /* *****************************************************************/
-    /* Main method *****************************************************/
-
-
-    /**
-     * The main method of the class of OrderManagement.
-     *
-     */
-    public static void main(String[] args){
-        
-        System.err.println(">>> QuickTest: OrderManagement class");
-        System.err.println(">>> Creating OrderManagement instance...");
-
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.USER_AUTHENTICATION,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.FINGERPRINT_AUTHENTICATION,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.EMPLOYEE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.STORAGE_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.TASK_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-        DatabaseConnectionContainer.getInstance().add(
-                EDBUse.ORDERS_MANAGEMENT,
-                new DBConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")
-        );
-
-
-
-        ClassLoader classLoader = OrderManagement.class.getClassLoader();
-        File file = new File(classLoader.getResource("stores/keyStore.jks").getFile());
-
-        ClassLoader classLoader2 = OrderManagement.class.getClassLoader();
-        File file2 = new File(classLoader2.getResource("stores/trustStore.jts").getFile());
-
-
-
-        OrderManagement instance = new OrderManagement(
-                "localhost",
-                888,
-                1010,
-                50,
-                file.getAbsolutePath(), "changeit",
-                file2.getAbsolutePath(), "changeit"
-        );
-
-        new Thread(instance).start();
-
-    }
 }

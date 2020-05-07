@@ -147,7 +147,7 @@ public class SSLServerConfigManager {
      * of the instance of {@link SSLServerConfigManager}
      *
      * @return the value of {@code enabledProtocols}
-     * @see String[]
+     *
      * @see SSLServerConfigManager
      */
     public String[] getEnabledProtocols() {
@@ -217,7 +217,7 @@ public class SSLServerConfigManager {
      *
      * @param enabledCiphers given String value to
      *                       be set to the variable
-     * @see String[]
+     *
      * @see SSLServerConfigManager
      */
     public void setEnabledCiphers(String[] enabledCiphers) {
@@ -231,7 +231,7 @@ public class SSLServerConfigManager {
      *
      * @param enabledProtocols given String value to
      *                         be set to the variable
-     * @see String[]
+     *
      * @see SSLServerConfigManager
      */
     public void setEnabledProtocols(String[] enabledProtocols) {

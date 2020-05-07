@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  * @version 04. 04. 2020
  *
  *
- * @see cz.vse.java.connections.utils
+ * .vse.java.connections.utils
  */
 public abstract class AConnectionWithRouter implements Runnable, IProblemSolver, IConnection {
 
