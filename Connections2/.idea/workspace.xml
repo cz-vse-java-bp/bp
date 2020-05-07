@@ -840,7 +840,7 @@
       <workItem from="1587653295254" duration="43535000" />
       <workItem from="1588187058617" duration="70000" />
       <workItem from="1588187175107" duration="55396000" />
-      <workItem from="1588806466590" duration="2287000" />
+      <workItem from="1588806466590" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="mid-save">
       <created>1587758449339</created>
@@ -990,7 +990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="464875000" />
+    <option name="totallyTimeSpent" value="465415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,7 +1002,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />

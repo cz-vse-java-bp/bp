@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"cz.vse.java"},{"l":"cz.vse.java.utils.cryptography.hashing"},{"l":"cz.vse.java.utils.device"},{"l":"cz.vse.java.utils.emailServices"},{"l":"cz.vse.java.utils.lists"},{"l":"cz.vse.java.utils.lists.stringLists"},{"l":"cz.vse.java.utils.random"},{"l":"cz.vse.java.utils.xml"}]
